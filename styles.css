@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    max-width: 340px;
+    box-shadow: 5px 15px 10px hsla(224, 23%, 55%, 0.095);
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    background-image: url(./images/illustration-hero.svg);
+    height: 170px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.top {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+    color:  hsl(223, 47%, 23%);
+    font-size: 24px;
+}
+
+.description {
+    padding: 5px 35px;
+    line-height: 27px;
+}
+
+.center {
+    display: flex;
+    border-radius: 15px;
+    background-color: hsl(225, 100%, 98%);
+    max-height: 80px;
+}
+
+h2 {
+    font-size: 14px;
+    padding-top: 6px;
+    margin-bottom: 2px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    margin-right: 55px;
+   
+}
+
+.money {
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.music {
+    height: 48px;
+    padding: 17px;
+}
+
+.change {
+    padding-top: 30px;
+    margin-right: 20px;
+    color:  hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+a {
+    font-size: 14px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.pay {
+    background-color: hsl(245, 75%, 52%);
+    color: #ffffff;
+    margin-top: 30px;
+    width: 262px;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 5px 12px 10px hsla(224, 23%, 55%, 0.25);
+}
+
+.cancel {
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    margin: 25px;
+    color: hsl(224, 23%, 55%);
+}
+
+p {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+@media screen and (min-width: 700px) {
+    body {
+        background-image: url(./images/pattern-background-desktop.svg);
+    }
+}
