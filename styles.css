@@ -29,7 +29,7 @@ body {
 .image {
     background-image: url(./images/illustration-hero.svg);
     height: 170px;
-    background-size: cover;
+    background-size: contain;
     border-radius: 15px 15px 0 0;
 }
 
@@ -125,5 +125,52 @@ p {
 @media screen and (min-width: 700px) {
     body {
         background-image: url(./images/pattern-background-desktop.svg);
+    }
+
+    .card {
+        max-width: 450px;
+    }
+
+    .image {
+        height: 230px;
+        max-width: 450px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .description {
+        padding: 5px 45px;
+    }
+
+    .center {
+        max-height: 100px;
+    }
+
+    .change {
+        padding-top: 40px;
+        margin-left: 65px
+    }
+
+    .music {
+        padding: 24px;
+        height: 52px;
+    }
+
+    h2 {
+        padding-top: 17px;
+    }
+
+    .pay {
+        margin-top: 40px;
+        width: 350px;
+        padding: 13px;
+    }
+
+    h1 {
+        margin-top: 30px;
+    }
+
+    .cancel {
+        margin: 35px;
     }
 }
